@@ -1,0 +1,293 @@
+@font-face {
+    font-family: "Metallica";
+    src: url(/fonts/Jaymz.ttf);
+}
+
+@font-face {
+    font-family: "MainF";
+    src: url(/fonts/INTRORUST-BASE.OTF);
+}
+
+@font-face {
+    font-family: "SecF";
+    src: url(/fonts/EASTMAN-REGULAR-OFFSET.TTF);
+}
+
+body {
+    background-size: cover;
+}
+
+.bgvideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -9999;
+}
+
+header{
+    font-family: "Metallica";
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    -webkit-text-stroke: 0.2px #000000;
+}
+
+.main1{
+    margin-top: 150px;
+    justify-content: center;
+    padding: 20px;
+}
+
+h1{
+    font-family: "MainF";
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    margin-top: 0;
+}
+
+.par1{
+    font-family: "SecF";
+    color: white;
+    font-size: 20px;
+    margin-right: 25px;
+    margin-top: 0;
+}
+
+.par2{
+    font-family: "SecF";
+    color: white;
+    font-size: 20px;
+    margin-right: 25px;
+    margin-top: 0;
+}
+
+.par3{
+    font-family: "SecF";
+    color: white;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.sec1{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    font-family: "MainF";
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    margin-top: 300px;
+    margin-bottom: 30px;
+}
+
+.concPhoto{
+    border-radius: 20px;
+    height: 600px;
+}
+
+.imgC{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.logos1{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.logos2{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.logo1{
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    height: 200px;
+    margin-right: 25px;
+    margin-top: 0;
+}
+
+.logo2{
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    height: 200px;
+    margin-right: 25px;
+    margin-top: 0;
+}
+
+.logo3{
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    height: 200px;
+    margin-right: 25px;
+    margin-top: 0;
+}
+
+.logo4{
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    height: 200px;
+    margin-top: 0;
+    margin-right: 25px;
+}
+
+.logo5{
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    height: 200px;
+    margin-top: 0;
+    margin-right: 25px;
+}
+
+h3{
+    font-family: "SecF";
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    margin-top: 15px;
+}
+
+h4{
+    font-family: "MainF";
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    margin-top: 250px;
+}
+
+.sec2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
+
+h5{
+    font-family: "SecF";;
+    color: white;
+    margin-top: 100px;
+    margin-right: 50px;
+    font-size: 25px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 0;
+}
+
+.inner-sec2{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.button-offer{
+    font-family: "SecF";;
+    font-size: 50px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 20px;
+    height: 150px;
+    width: 400px;
+}
+
+.button-offer{
+    background-color: #000000;
+    transition: backgrrgb(0, 0, 0)lor 0.3s; 
+  
+}
+  
+.button-offer:hover{
+    background-color: #8f8f8f; 
+}
+
+footer{
+    font-family: "SecF";;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+  
+.footer-content{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h6{
+    font-family: "SecF";
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    margin-top: 400px;
+}
+
+.concPhoto2{
+    border-radius: 20px;
+    height: 600px;
+    margin-bottom: 100px;
+}
+
+.imgC2{
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none; 
+    color: inherit; 
+}
+  
+a:hover{
+    text-decoration: none; 
+}
+
+
+.heartIcon{
+    height: 250px;
+}
+
+.icH{
+    justify-content: center;
+    display: flex;
+    margin-top: 100px;
+}
+
+.iconImg{
+    height: 150px;
+}
+
